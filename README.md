@@ -4,14 +4,6 @@ HairMapper is a hair-removal network that can be applied in hair design and 3D f
 
 ![hairmapper](./imgs/hairmapper.png)
 
-Published in **[2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition](https://cvpr2022.thecvf.com/) (CVPR’2022)**
-
-[Yiqian Wu](https://onethousandwu.com/), [Yongliang Yang](http://www.yongliangyang.net/), [Xiaogang Jin*](http://www.cad.zju.edu.cn/home/jin)
-
-[[Paper (4.21MB)]](http://www.cad.zju.edu.cn/home/jin/cvpr2022/HairMapper.pdf )    [[Video (46.7MB)]](http://www.cad.zju.edu.cn/home/jin/cvpr2022/demo.mp4 )    [[Suppl (4.42M)]](http://www.cad.zju.edu.cn/home/jin/cvpr2022/Supplementary_Materials.pdf)    [[Project Page]](http://www.cad.zju.edu.cn/home/jin/cvpr2022/cvpr2022.htm)
-
-[[Paper-high resolution (25.8MB)]](https://drive.google.com/file/d/18DDvis0ABiN0ibnAuZePLrN5SjhIeuRR/view?usp=sharing )  [[Suppl-high resolution (16.4M)]](https://drive.google.com/file/d/1_hXrqicomEi79Tm52CKgNamezgWlykDh/view?usp=sharing)  
-
 **Abstract:**
 
 Removing hair from portrait images is challenging due to the complex occlusions between hair and face, as well as the lack of paired portrait data with/without hair. To this end, we present a dataset and a baseline method for removing hair from portrait images using generative adversarial networks (GANs). Our core idea is to train a fully connected network **HairMapper** to find the direction of hair removal in the latent space of StyleGAN for the training stage. We develop a new separation boundary and diffuse method to generate paired training data for males, and a novel ''female-male-bald'' pipeline for paired data of females. Experiments show that our method can naturally deal with portrait images with variations on gender, age, etc. We validate the superior performance of our method by comparing it to state-of-the-art methods through extensive experiments and user studies. We also demonstrate its applications in hair design and 3D face reconstruction.
@@ -34,10 +26,6 @@ Removing hair from portrait images is challenging due to the complex occlusions 
 
 # Install
 
-1. ```bash
-   git clone git@github.com:oneThousand1000/HairMapper.git
-   ```
-   
 1. Download the following pretrained models, put each of them to **path**:
 
    | model                                                        | path                               |
@@ -294,7 +282,7 @@ python train_mapper.py --mapper_name final_mapper --max_steps 26000
 
 ## Contact
 
-onethousand@zju.edu.cn / [onethousand1250@gmail.com](mailto:onethousand1250@gmail.com)
+mohammadhashemzadeh.official@gmail.com
 
 ## Citation
 
